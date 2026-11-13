@@ -31,6 +31,7 @@ int main (void)
 	
 	//Start ADC Conversion once
 	ADC->ADC_CR = 0x2;
+	printf(“I know how to use git”);
 	while (1) {
 	}
 }
